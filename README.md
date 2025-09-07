@@ -5,7 +5,7 @@
 
 # Project Overview
 
-## For HR & Business Stakeholders
+## For Business Stakeholders
 
 This project leverages advanced machine learning to help a telecom company better understand and predict customer satisfaction and churn risk. By analyzing customer address and satisfaction data, the solution identifies key customer segments—Promoters, Passives, and Detractors—enabling targeted engagement, improved retention, and data-driven business decisions. The model empowers the business to:
 
