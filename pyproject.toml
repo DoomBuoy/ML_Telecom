@@ -32,6 +32,9 @@ dependencies = [
     "scipy (>=1.16.1,<2.0.0)",
     "wordcloud (>=1.9.4,<2.0.0)",
     "ipython (>=9.5.0,<10.0.0)",
+    "plotly (>=6.3.0,<7.0.0)",
+    "scikit-learn (>=1.7.1,<2.0.0)",
+    "imblearn (>=0.0,<0.1)",
 ]
 requires-python = "^3.11.0"
 
