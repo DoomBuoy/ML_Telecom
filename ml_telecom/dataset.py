@@ -18,10 +18,12 @@ def main(
 ):
     import subprocess
     import sys
-    # Ensure gdown is installed
-    subprocess.run([sys.executable, "-m", "pip", "install", "gdown"], check=True)
-    import gdown
+    from pathlib import Path
 
+    # Ensure the raw data directory exists
+    RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
+   
+    import gdown
     # Download customer_address.csv
     address_url = "https://drive.google.com/uc?id=1IXHnuqOT7cBK5YVCkWE-7ZldZXP2Uk4z"
     address_path = RAW_DATA_DIR / "customer_address.csv"
